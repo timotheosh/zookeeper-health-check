@@ -3,7 +3,8 @@
   :url "https://github.com/timotheosh/zookeeper-health-check"
   :license {:name "MIT License"
             :url "https://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [zookeeper-clj "0.9.4"]]
   :main ^:skip-aot zookeeper-health-check.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
