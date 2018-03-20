@@ -1,0 +1,10 @@
+* zookeeper-health-check
+  This is an [[https://aws.amazon.com/lambda/][Amazon Webservice Lambda]] function, written in [[https://clojure.org/][Clojure]] that checks
+  the health of every [[https://zookeeper.apache.org/][Apache Zookeeper]] in a Zookeeper cluster (mainly for the
+  purpose of upgrading the zookeeper nodes without down time).
+
+** Build and Deploy
+   FIXME UNFINISHED PROJECT
+
+** License
+   This application is Copyright 2018 Tim Haws and is distributed under the [[https://opensource.org/licenses/MIT][MIT License]].
